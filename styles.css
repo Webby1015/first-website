@@ -1,0 +1,12 @@
+.main-header{
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url("images/header-background.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+/* background-size: cover makes the image fit for one edge */
+/* background-blend-mode blends the background image and background color */
+.greenday  {
+    background-image: url("images/Greenday.jpg");
+    background-size: cover;
+}
