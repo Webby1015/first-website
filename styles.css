@@ -1,12 +1,22 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.social  {
+    width: 50px;
+    size: cover;
+}
+
+.nav ul {
+    padding: 0;
+}
 .main-header{
     background-color: rgba(0, 0, 0, 0.5);
     background-image: url("images/header-background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
+    padding: 30px;
 }
 /* background-size: cover makes the image fit for one edge */
 /* background-blend-mode blends the background image and background color */
-.greenday  {
-    background-image: url("images/Greenday.jpg");
-    background-size: cover;
-}
