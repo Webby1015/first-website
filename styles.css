@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+*{
+box-sizing: border-box;
+font-family: Raleway;
+color: #777;
+
+}
+
 html,body{
     padding: 0;
     margin: 0;
@@ -11,8 +20,48 @@ html,body{
 .nav ul {
     padding: 0;
 }
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: .5em;
+    color: wheat;
+    text-decoration: none;
+}
+
+.main-nav{
+
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.main-nav li{
+
+    padding: 0 5%;
+
+}
+
+.nav a:hover{
+
+    background-color: rgba(255,255,255,.3);
+
+}
+
+.band-name{
+
+    text-align: center;
+    margin:0 ;
+    font-size: 4am;
+}
+
 .main-header{
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.8);
     background-image: url("images/header-background.jpg");
     background-blend-mode: multiply;
     background-size: cover;
