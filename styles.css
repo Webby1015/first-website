@@ -83,5 +83,9 @@ html,body{
     display: inline;
     padding: 5%;
 }
+
+h2{
+    text-align: center;
+}
 /* background-size: cover makes the image fit for one edge */
 /* background-blend-mode blends the background image and background color */
